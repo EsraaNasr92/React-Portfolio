@@ -56,7 +56,7 @@ export default function NavBar(){
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="hereoSection"
+                            to="heroSection"
                             className="navbar--content"
                         >
                             Home
@@ -70,7 +70,7 @@ export default function NavBar(){
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="MyPortofolio"
+                            to="MyPortfolio"
                             className="navbar--content"
                         >
                             Portofolio
@@ -98,7 +98,7 @@ export default function NavBar(){
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="Testimonials"
+                            to="testimonial"
                             className="navbar--content"
                         >
                             Testimonials
@@ -112,10 +112,10 @@ export default function NavBar(){
                             smooth={true}
                             offset={-70}
                             duration={500}
-                            to="Testimonials"
+                            to="Contact"
                             className="navbar--content"
                         >
-                            Testimonials
+                            Contact
                         </Link>
                     </li>
                 </ul>
