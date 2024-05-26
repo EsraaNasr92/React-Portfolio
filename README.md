@@ -1,70 +1,92 @@
-# Getting Started with Create React App
+# Frontend Mentor - Huddle landing page with curved sections solution
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a personal portfolio website built using React. The portfolio showcases various projects and skills, providing an interactive and visually appealing interface for visitors to learn more about your work and experience.
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
+The React Portfolio project is designed to provide a comprehensive and visually appealing platform to showcase your skills, projects, and experience. The portfolio includes sections such as an introduction, project showcase, skills, experience, and contact information. This project emphasizes responsive design and modern web development practices to ensure a seamless user experience across various devices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+### Links
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [Solution URL here](https://github.com/EsraaNasr92/React-portfolio)
+- [Live site URL here](https://secret-bomb.surge.sh/)
 
-### `npm run build`
+## My process
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built with
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Styled Components](https://styled-components.com/) - For styles
+- [React Router] (https://reactrouter.com/en/main) - for navigation
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### What I learned
 
-### `npm run eject`
+Throughout the development of this portfolio, I enhanced my skills in various areas:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Responsive Design: Implemented a mobile-first workflow to ensure the portfolio looks great on all devices.
+- React Components: Developed reusable and maintainable components for different sections of the portfolio.
+- Styled Components: Utilized styled-components for better CSS management and scoped styling.
+- React Router: Implemented React Router for smooth navigation between different sections of the portfolio.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```js
+// Example project data structure
+const projects = [
+    {
+        id: 1,
+        title: "Project One",
+        description: "This is a brief description of Project One.",
+        imageUrl: "path/to/image.jpg",
+        projectUrl: "https://github.com/username/project-one"
+    },
+    {
+        id: 2,
+        title: "Project Two",
+        description: "This is a brief description of Project Two.",
+        imageUrl: "path/to/image.jpg",
+        projectUrl: "https://github.com/username/project-two"
+    },
+];
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+// Passing data to Project component
+<ProjectList projects={projects} />
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
 
-## Learn More
+### Continued development
+In future iterations of this project, I plan to:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Expand Portfolio Content: Add more projects and detailed descriptions to enhance the portfolio.
+- Improve Accessibility: Ensure the website is fully accessible to users with disabilities.
+- Add Animations: Integrate subtle animations to enhance user engagement and interactivity.
+- Backend Integration: Implement a backend to manage contact form submissions and other dynamic content.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Useful resources
+- [React Documentation] (https://reactjs.org/) - Official React documentation.
+- [Styled Components Documentation] () - Official Styled Components documentation.
+- [React Router Documentation] (https://reactrouter.com/en/main) - Official React Router documentation.
+- [A Complete Guide to Grid] (https://www.freecodecamp.org/news/complete-guide-to-css-grid/) - CSS-Tricks comprehensive guide to CSS Grid.
 
-### Code Splitting
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Github - [Esraa Nasr](https://github.com/EsraaNasr92/)
+- Frontend Mentor - [@EsraaNasr92](https://www.frontendmentor.io/profile/EsraaNasr92)
+- Twitter - [@__ecupcake](https://twitter.com/__ecupcake)
