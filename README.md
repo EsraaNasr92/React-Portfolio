@@ -1,4 +1,4 @@
-# Frontend Mentor - Huddle landing page with curved sections solution
+# Frontend Mentor - Portfolio solution
 
 This is a personal portfolio website built using React. The portfolio showcases various projects and skills, providing an interactive and visually appealing interface for visitors to learn more about your work and experience.
 
