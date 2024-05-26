@@ -36,7 +36,7 @@ The React Portfolio project is designed to provide a comprehensive and visually 
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-- [React Router] (https://reactrouter.com/en/main) - for navigation
+- [React Router](https://reactrouter.com/en/main) - for navigation
 
 ### What I learned
 
@@ -80,10 +80,10 @@ In future iterations of this project, I plan to:
 - Backend Integration: Implement a backend to manage contact form submissions and other dynamic content.
 
 ### Useful resources
-- [React Documentation] (https://reactjs.org/) - Official React documentation.
-- [Styled Components Documentation] () - Official Styled Components documentation.
-- [React Router Documentation] (https://reactrouter.com/en/main) - Official React Router documentation.
-- [A Complete Guide to Grid] (https://www.freecodecamp.org/news/complete-guide-to-css-grid/) - CSS-Tricks comprehensive guide to CSS Grid.
+- [React Documentation](https://reactjs.org/) - Official React documentation.
+- [Styled Components Documentation](https://styled-components.com/docs) - Official Styled Components documentation.
+- [React Router Documentation](https://reactrouter.com/en/main) - Official React Router documentation.
+- [A Complete Guide to Grid](https://www.freecodecamp.org/news/complete-guide-to-css-grid/) - CSS-Tricks comprehensive guide to CSS Grid.
 
 ## Author
 
